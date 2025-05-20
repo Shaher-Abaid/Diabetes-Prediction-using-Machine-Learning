@@ -1,6 +1,7 @@
 # Diabetes Prediction using Machine Learning
 
-<img src="images/cover.png" alt="Diabetes ML Project" width="800"/>
+<img src="imagescover.png.jpg" alt="Diabetes-Prediction-using-Machine-Learning
+" width="800"/>
 
 ## 📌 Project Overview
 
@@ -25,7 +26,7 @@ Diabetes is a chronic health condition affecting how your body processes glucose
 ## 📊 Technologies Used
 
 - Python, Pandas, NumPy
-- Scikit-learn, XGBoost, LightGBM
+- Scikit-learn, XGBoost, LightGBM etc...
 - Seaborn, Matplotlib
 - Jupyter Notebook
 
@@ -45,10 +46,24 @@ The dataset is based on the [Pima Indians Diabetes Database](https://www.kaggle.
 
 ---
 
-## 📈 Results
+## 📈 Results Summary
+After evaluating multiple classification models, the top-performing model was:
 
-The best model achieved an F1-score of **XX%** using **[Model Name]**.
+✅ **LightGBM (LGBMClassifier)**
+🎯 F1 Score: 0.841
+📊 Test Accuracy: 89.6%
+🔍 Precision: 83.3% | Recall: 84.9%
+🧠 Generalization Gap: ~10.4
 
+Other high-performing models included:
+
+XGBoost (F1 Score: 0.839)
+
+Random Forest (F1 Score: 0.842)
+
+AdaBoost (F1 Score: 0.831)
+
+While models like Decision Tree and KNN showed strong training accuracy, they exhibited larger generalization gaps, indicating a tendency to overfit.
 ---
 
 ## 🙌 Contributions
