@@ -1,3 +1,4 @@
+# Diabetes Prediction using Machine Learning
 🔍 Project Highlights
 🚦 Built and evaluated 10+ machine learning classifiers including Random Forest, XGBoost, SVM, LGBM, and others
 
